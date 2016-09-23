@@ -17,9 +17,9 @@ html {
   box-sizing: inherit;
 }
 
-body{
-	margin: 0;
-	background-color: #e2e2e2;
+body {
+  margin: 0;
+  background-color: #e2e2e2;
 }
 
 .body-copy {
@@ -27,42 +27,46 @@ body{
   margin-top: 0;
 }
 
-.img-flex{
-	display: block;
-	width: 100%;
+.img-flex {
+  display: block;
+  width: 100%;
 }
 
-h1{
-	padding: 1rem 1rem;
-	margin: 0;
+h1 {
+  padding: 1rem 1rem;
+  margin: 0;
 }
 
-h2{
-	font-size: 1rem;
-	margin-bottom: 0;
-	padding: 0 1rem;
+h2 {
+  font-size: 1rem;
+  margin-bottom: 0;
+  padding: 0 1rem;
 }
 
-p{
-	margin: 0 1rem 1rem 1rem;
+p {
+  margin: 0 1rem 1rem 1rem;
 }
 
-.button{
-	background-color: #555;
-	color: white;
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
-	padding-right: 0.75em;
-	padding-left: 0.75em;
-	border-radius: 4px;
-	text-decoration: none;
-	display: inline-block;
-	margin: 0.5em 1em;
-	font-size: 1.125rem;
+.button {
+  background-color: #555;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-right: 0.75em;
+  padding-left: 0.75em;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0.5em 1em;
+  font-size: 1.125rem;
 }
 
-a:hover{
-	background-color: #000;
+a {
+  color: white;
+  background-color: #555;
+  border-radius: 4px;
+}
+
+a:hover {
+  background-color: #000;
 }
 
 @media only screen and (min-width: 25em) {
@@ -115,7 +119,7 @@ a:hover{
   }
 
   .body-copy, .image-wrapper {
-   	width: 33.3333%;
+    width: 33.3333%;
   }
 
   section {
